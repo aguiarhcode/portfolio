@@ -29,9 +29,9 @@ export default function portfolio() {
                 <p class="text-textColor-light hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">more</p>
               
                 <div class="flex flex-row space-x-6 mt-96">
-                  <a class="w-6 h-6" href="https://twitter.com"><img src="/twitter.png" width={72} height={16}/></a>
-                  <a class="w-6 h-6" href="https://github.com/aguiarhcode"><img src="/github.png"/></a>
-                  <a class="w-6 h-6" href="mailto:aguiarhcode@gmail.com"><img src="/email.png" width={72} height={16}/></a>
+                  <a class="w-6 h-6 opacity-70" href="https://twitter.com"><img src="/twitter.png" width={72} height={16}/></a>
+                  <a class="w-6 h-6 opacity-70" href="https://github.com/aguiarhcode"><img src="/github.png"/></a>
+                  <a class="w-6 h-6 opacity-70" href="mailto:aguiarhcode@gmail.com"><img src="/email.png" width={72} height={16}/></a>
                 </div>
               </div>
             </div>
@@ -40,10 +40,38 @@ export default function portfolio() {
               <p class="text-white font-bold text-xl mb-8 ">Projects</p>
               
               <div class="flex flex-column space-x-8">
-                <div class="bg-card w-96 h-96 rounded-2xl">
+                <div class="bg-card w-96 h-96 rounded-2xl hover:bg-gray-700 transition duration-700 ease-in-out">
                   <div class="flex flex-row m-6">
                     <div class="mr-6">
-                      <img src="/twitter.png" />
+                      <img class="w-16 h-16" src="/logo.png"/>
+                    </div>
+                    <div class="flex flex-col">
+                      <div class="flex flex-row">
+                        <a href="#" class=" text-textColor ">Goodthings</a>
+                        <a href="#"><img class="w-6 h-6 ml-1" src="/arrow.png"></img></a>
+                      </div>
+                      <div>
+                        <p class="text-textColor-gray">Social Media</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-auto h-1 bg-black"></div>
+                  <div class="m-6">
+                    <div>
+                      <p class="text-textColor mb-2">Role</p>
+                      <p class=" text-textColor-gray mb-4">Founder, Designer and Full Stack Developer</p>
+                    </div>
+                    <div>
+                      <p class="text-textColor mb-2 ">What</p>
+                      <p class=" text-textColor-gray mb-4 ">I founded Goodthings at 2021 for my final project course. To make a social media a better place.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-card w-96 h-96 rounded-2xl hover:bg-gray-700 transition duration-700 ease-in-out">
+                  <div class="flex flex-row m-6">
+                    <div class="mr-6">
+                      <img class="w-16 h-16" src="/twitter.png" />
                     </div>
                     <div class="flex flex-col">
                       <div>
@@ -68,38 +96,10 @@ export default function portfolio() {
                   </div>
                 </div>
 
-                <div class="bg-card w-96 h-96 rounded-2xl">
+                <div class="bg-card w-96 h-96 rounded-2xl hover:bg-gray-700 transition duration-700 ease-in-out">
                   <div class="flex flex-row m-6">
                     <div class="mr-6">
-                      <img src="/twitter.png" />
-                    </div>
-                    <div class="flex flex-col">
-                      <div>
-                        <p class=" text-textColor ">Goodthings</p>
-                        <img></img>
-                      </div>
-                      <div>
-                        <p class="text-textColor-light">Social Media</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="w-auto h-1 bg-black"></div>
-                  <div class="m-6">
-                    <div>
-                      <p class="text-textColor mb-2">Role</p>
-                      <p class=" text-textColor-gray mb-4">Founder, Designer and Full Stack Developer</p>
-                    </div>
-                    <div>
-                      <p class="text-textColor mb-2 ">What</p>
-                      <p class=" text-textColor-gray mb-4 ">I founded Goodthings at 2021 for my final project course. To make a social media a better place.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="bg-card w-96 h-96 rounded-2xl">
-                  <div class="flex flex-row m-6">
-                    <div class="mr-6">
-                      <img src="/twitter.png" />
+                      <img class="w-16 h-16" src="/twitter.png" />
                     </div>
                     <div class="flex flex-col">
                       <div>
@@ -128,7 +128,7 @@ export default function portfolio() {
                 <p class="text-white font-bold text-xl mb-8 ">Other(s) and Open Source</p>
 
                 <div class="flex flex-col">
-                  <div class="w-800 h-40 bg-card rounded-2xl mb-4">
+                  <div class="w-800 h-40 bg-card rounded-2xl mb-4 hover:bg-gray-700 transition duration-700 ease-in-out">
                     <div class="flex flex-row space-x-16 m-6 "> 
                       <div>
                         <div>
@@ -151,7 +151,7 @@ export default function portfolio() {
                     </div>
                   </div>
 
-                  <div class="w-800 h-40 bg-card rounded-2xl mb-4">
+                  <div class="w-800 h-40 bg-card rounded-2xl mb-4 hover:bg-gray-700 transition duration-700 ease-in-out">
                     <div class="flex flex-row space-x-16 m-6 "> 
                       <div>
                         <div>
@@ -174,7 +174,7 @@ export default function portfolio() {
                     </div>
                   </div>
 
-                  <div class="w-800 h-40 bg-card rounded-2xl mb-4">
+                  <div class="w-800 h-40 bg-card rounded-2xl mb-4 hover:bg-gray-700 transition duration-700 ease-in-out">
                     <div class="flex flex-row space-x-16 m-6 "> 
                       <div>
                         <div>
