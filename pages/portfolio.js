@@ -129,7 +129,7 @@ export default function portfolio() {
 
                 <div class="flex flex-col">
                   <div class="w-800 h-40 bg-card rounded-2xl mb-4 hover:bg-gray-700 transition duration-700 ease-in-out">
-                    <div class="flex flex-row space-x-16 m-6 "> 
+                    <div class="flex flex-row space-x-16 m-6"> 
                       <div>
                         <div>
                           <p class="text-textColor mb-1">Name</p>
@@ -139,7 +139,10 @@ export default function portfolio() {
                       <div>
                         <div>
                           <p class="text-textColor mb-1">Language</p>
-                          <p class="text-textColor-gray">Javascript</p>
+                          <div class="flex flex-row items-center">
+                            <p class="text-textColor-gray">Javascript</p>
+                            <div class="w-2 h-2 bg-yellow-300 rounded-full ml-2"/>
+                          </div>
                         </div>
                       </div>
                       <div>
@@ -151,8 +154,9 @@ export default function portfolio() {
                     </div>
                   </div>
 
+                  <div class="flex flex-col">
                   <div class="w-800 h-40 bg-card rounded-2xl mb-4 hover:bg-gray-700 transition duration-700 ease-in-out">
-                    <div class="flex flex-row space-x-16 m-6 "> 
+                    <div class="flex flex-row space-x-16 m-6"> 
                       <div>
                         <div>
                           <p class="text-textColor mb-1">Name</p>
@@ -162,7 +166,10 @@ export default function portfolio() {
                       <div>
                         <div>
                           <p class="text-textColor mb-1">Language</p>
-                          <p class="text-textColor-gray">Javascript</p>
+                          <div class="flex flex-row items-center">
+                            <p class="text-textColor-gray">Javascript</p>
+                            <div class="w-2 h-2 bg-yellow-300 rounded-full ml-2"/>
+                          </div>
                         </div>
                       </div>
                       <div>
@@ -174,8 +181,9 @@ export default function portfolio() {
                     </div>
                   </div>
 
+                  <div class="flex flex-col">
                   <div class="w-800 h-40 bg-card rounded-2xl mb-4 hover:bg-gray-700 transition duration-700 ease-in-out">
-                    <div class="flex flex-row space-x-16 m-6 "> 
+                    <div class="flex flex-row space-x-16 m-6"> 
                       <div>
                         <div>
                           <p class="text-textColor mb-1">Name</p>
@@ -185,7 +193,10 @@ export default function portfolio() {
                       <div>
                         <div>
                           <p class="text-textColor mb-1">Language</p>
-                          <p class="text-textColor-gray">Javascript</p>
+                          <div class="flex flex-row items-center">
+                            <p class="text-textColor-gray">Javascript</p>
+                            <div class="w-2 h-2 bg-yellow-300 rounded-full ml-2"/>
+                          </div>
                         </div>
                       </div>
                       <div>
@@ -205,5 +216,7 @@ export default function portfolio() {
           </div>
         </div>
       </div>
+    </div>
+  </div>
   )
 }
