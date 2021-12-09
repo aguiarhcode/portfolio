@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        custom: ['Poppins', 'sans-serif'],
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
@@ -18,6 +21,9 @@ module.exports = {
         card:{
           DEFAULT: '#232732',
         },
+      },
+      borderWidth: {
+        '1': '1px',
       },
       width: {
         '200': '700px',
