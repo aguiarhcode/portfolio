@@ -21,12 +21,20 @@ export default function Home() {
                   aveiro, pt
                 </p>
               </div>
+              
+              <ul>
+                <li className="mb-2"><a className="text-textColor"> what i do</a></li>
+                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer" href='./portfolio'> what i've done</a></li>
+                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer" href='./tech'> how i do</a></li>
+                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer" href='./contact'> what am i + contact </a></li>
+                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer"> more</a></li>
+              </ul>
 
-              <p className="text-textColor mb-2">what i do</p>
+              {/* <p className="text-textColor mb-2">what i do</p>
               <p className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">what i've done</p>
               <p className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">how i do</p>
               <p className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">what am i + contact</p>
-              <p className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">more</p>
+              <p className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">more</p> */}
             
               <div className="flex flex-row space-x-6 mt-96">
                 <a className="w-6 h-6" href="https://twitter.com"><img src="/twitter.png" width={72} height={16}/></a>

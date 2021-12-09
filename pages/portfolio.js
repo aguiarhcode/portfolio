@@ -22,11 +22,13 @@ export default function portfolio() {
                   </p>
                 </div>
   
-                <p className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">what i do</p>
-                <p className="text-textColor hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">what i've done</p>
-                <p className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">how i do</p>
-                <p className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">what am i + contact</p>
-                <p className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out mb-2 cursor-pointer">more</p>
+                <ul>
+                  <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer" href='./'> what i do</a></li>
+                  <li className="mb-2"><a className="text-textColor"> what i've done</a></li>
+                  <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer" href='./tech'> how i do</a></li>
+                  <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer" href='./contact'> what am i + contact </a></li>
+                  <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer"> more</a></li>
+                </ul>
               
                 <div className="flex flex-row space-x-6 mt-96">
                   <a className="w-6 h-6 opacity-70" href="https://twitter.com"><img src="/twitter.png" width={72} height={16}/></a>
