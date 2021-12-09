@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className=" bg-bgBlue pt-20 pl-20 h-screen ">
+    <div className=" bg-bgBlue pl-10 2xl:pl-20 pt-10 2xl:pt-20 h-screen ">
       <Head>
         <title>tom portfolio</title>
         <meta name="description" content="Tomás Aguiar's Portfolio" />
@@ -13,7 +13,7 @@ export default function Home() {
       <div className="">
         <div className="flex flex-row ">
           <div>
-            <div className="w-96 border-r-2 border-gray-500 ">
+            <div className="w-48 2xl:w-96 h-full border-r-2 border-gray-500 ">
               <p className="text-white font-bold text-xl mb-2">tomás aguiar</p>
               <div className="flex flex-row space-x-2" >
                 <img className="w-8 h-8" src='/loc.png'></img>
@@ -36,7 +36,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" pl-20 ">
+          <div className=" pl-8 2xl:pl-16 ">
             <p className="text-white font-bold text-xl mb-8 ">I’m a Software Developer</p>
             <p className="text-textColor-light mb-4">Tom, 17 y/o entusiast by software. </p>
             <p className="text-textColor-light w-200 mb-4">I design, build and deploy innovating and reliability software. Currently i’m developing Goodthings, a social media app.</p>
