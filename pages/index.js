@@ -44,7 +44,7 @@ export default function Home() {
 
             <p className="text-white font-bold text-xl mb-8">About Goodthings</p>
             <p className="text-textColor-light w-200 mb-4">Goodthings is a social media. unfortunately social medias tend to be a place good for learning and sharing moments, but in some cases social medias can be a super toxic place, where preconception, prejudgement, racism and others exists. With Goodthings we want to create a friendly enviroment all the time, a open-minded place where you can meet and learn new things.</p>
-            <a href="twitter.com" class="text-textColor-dark w-200 underline">see more about it</a>
+            <a href="twitter.com" className="text-textColor-dark w-200 underline">see more about it</a>
           </div>
         </div>
       </div>
