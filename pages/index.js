@@ -1,19 +1,26 @@
 import Head from 'next/head'
+import { useEffect } from 'react';
+import useSound from 'use-sound';
 import Image from 'next/image'
 
 export default function Home() {
+
+  const [playSwitchPageSound] = useSound('/sounds/switch-page.mp3', { volume: 0.5 });
+
+
   return (
     <div className=" bg-bgBlue pl-10 2xl:pl-20 pt-10 2xl:pt-20 h-screen ">
       <Head>
-        <title>tom portfolio</title>
+        <title>Tom Dev</title>
         <meta name="description" content="Tomás Aguiar's Portfolio" />
-        <link rel="icon" href="/icon.png" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="">
         <div className="flex flex-row ">
           <div>
-            <div className="w-48 2xl:w-96 h-full border-r-2 border-gray-500 ">
+            <div className="w-48 2xl:w-96 h-full border-r-1 border-gray-500 ">
               <p className="text-white font-bold text-xl mb-2">tomás aguiar</p>
               <div className="flex flex-row space-x-2" >
                 <img className="w-8 h-8" src='/loc.png'></img>
@@ -21,13 +28,13 @@ export default function Home() {
                   aveiro, pt
                 </p>
               </div>
-              
+
               <ul>
-                <li className="mb-2"><a className="text-textColor"> what i do</a></li>
-                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer" href='./portfolio'> what i've done</a></li>
-                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer" href='./tech'> how i do</a></li>
-                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer" href='./contact'> what am i + contact </a></li>
-                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer"> more</a></li>
+                <li className="mb-2"><a className="text-textColor font-custom"> what i do</a></li>
+                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer font-custom" href='./portfolio'> what i've done</a></li>
+                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer font-custom" href='./tech'> how i do</a></li>
+                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer font-custom " href='./contact'> what am i + contact </a></li>
+                <li className="mb-2"><a className="text-textColor-light hover:text-textColor transition duration-200 ease-in-out cursor-pointer font-custom"> more</a></li>
               </ul>
 
               {/* <p className="text-textColor mb-2">what i do</p>
@@ -45,10 +52,10 @@ export default function Home() {
           </div>
 
           <div className=" pl-8 2xl:pl-16 ">
-            <p className="text-white font-bold text-xl mb-8 ">I’m a Software Developer</p>
-            <p className="text-textColor-light mb-4">Tom, 17 y/o entusiast by software. </p>
-            <p className="text-textColor-light w-200 mb-4">I design, build and deploy innovating and reliability software. Currently i’m developing Goodthings, a social media app.</p>
-            <p className="text-textColor-light w-200 mb-10">In my free time, I learn new technologies and expand my network. Always looking for to learn new things meet new people and change knowledge. With a huge team spirit i also help my school colleges.</p>
+            <p className="text-white font-bold text-xl mb-8 font-custom">I’m a Software Developer</p>
+            <p className="text-textColor-light mb-4 font-custom">Tom, 17 y/o entusiast by software. </p>
+            <p className="text-textColor-light w-200 mb-4 font-custom">I design, build and deploy innovating and reliability software. Currently i’m developing Goodthings, a social media app.</p>
+            <p className="text-textColor-light w-200 mb-10 font-custom">In my free time, I learn new technologies and expand my network. Always looking for to learn new things meet new people and change knowledge. With a huge team spirit i also help my school colleges.</p>
 
             <p className="text-white font-bold text-xl mb-8">About Goodthings</p>
             <p className="text-textColor-light w-200 mb-4">Goodthings is a social media. unfortunately social medias tend to be a place good for learning and sharing moments, but in some cases social medias can be a super toxic place, where preconception, prejudgement, racism and others exists. With Goodthings we want to create a friendly enviroment all the time, a open-minded place where you can meet and learn new things.</p>
